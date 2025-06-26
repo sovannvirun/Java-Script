@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="i1.css">
+</head>
+<body>
+    <div class="whole">
+        <input type="text" readonly>
+        <div class="row">
+            <button class="c" onclick="clearData()">C</button>
+            <button class="ronvon" onclick="percent()">%</button>
+            <button class="ronvon yellow" onclick="getValue('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="ronvon" onclick="getValue('7')">7</button>
+            <button class="ronvon"  onclick="getValue('8')">8</button>
+            <button class="ronvon" onclick="getValue('9')">9</button>
+            <button class="ronvon yellow" onclick="getValue('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="ronvon" onclick="getValue('4')">4</button>
+            <button class="ronvon" onclick="getValue('5')">5</button>
+            <button class="ronvon" onclick="getValue('6')">6</button>
+            <button class="ronvon yellow" onclick="getValue('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="ronvon one" onclick="getValue('1')" >1</button>
+            <button class="ronvon" onclick="getValue('2')">2</button>
+            <button class="ronvon" onclick="getValue('3')">3</button>
+            <button class="ronvon yellow"  onclick="getValue('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="c" onclick="getValue(0)">0</button>
+            <button class="ronvon" onclick="getValue(',')">,</button>
+            <button class="ronvon yellow" onclick="result()">=</button>
+        </div>
+    </div>
+
+    <script src="i2.js"></script>
+</body>
+</html>

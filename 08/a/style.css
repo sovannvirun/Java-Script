@@ -1,0 +1,11 @@
+.active{
+    display: flex;
+    color: red;
+}
+.buttonActive{
+    background-color: black;
+    color: white;
+}
+p{
+    display: none;
+}

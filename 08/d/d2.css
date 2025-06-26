@@ -1,0 +1,6 @@
+.active{
+    background-color: rgb(235, 56, 139);
+    color: white;padding-left:30px ;
+    padding-right: 30px;padding-top: 10px;padding-bottom: 10px;
+    border: none;border-radius: 10px;
+}  

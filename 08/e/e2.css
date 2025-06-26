@@ -1,0 +1,7 @@
+.showgrade{
+    color: red;
+    display: none;
+}
+.active{
+    display: block;
+}

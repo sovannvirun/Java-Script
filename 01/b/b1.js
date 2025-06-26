@@ -1,0 +1,6 @@
+console.log("this is my information")
+console.log("--------------------------")
+console.log("Full Name: Chan Dara")
+console.log("Gender : Male")
+console.log("University: Rupp")
+console.log("Address: Phnom Penh")
