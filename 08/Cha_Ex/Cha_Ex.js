@@ -10,5 +10,5 @@ x.addEventListener("click",()=>{
     modelHeader.classList.remove("active")
 })
 overlay.addEventListener("click",()=>{
-    modelHeader.classList.remove("ative")
+    modelHeader.classList.remove("active")
 })
