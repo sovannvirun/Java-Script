@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn javascript Form </h1>
+        
+        <form id="myform" action="">
+            <div class="box">
+                <label for="username">username</label>
+                <input id="js-username" type="text">
+            </div>
+            <!-- gender radio -->
+             <div class="box">
+                <p>gender</p>
+                <div>
+                    <input id="js-female" name="gender" type="radio">
+                    <label for="female">female</label>
+                </div>
+                <div>
+                    <input id="js-male" name="gender" type="radio">
+                    <label for="male">male</label>
+                </div>
+             </div>
+             <!-- shift select -->
+              <div class="box">
+                <label for="shift">shift</label>
+                <select name="shift" id="js-shift">
+                    <option value="">Select shift</option>
+                    <option value="morning">morning</option>
+                    <option value="evening">evening</option>
+                    <option value="night">night</option>
+                    <option value="nnnnn">nnnnn</option>
+                </select>
+              </div>
+              <!-- course checkbox -->
+               <div class="box">
+                    <p>Course</p>
+                    <div>
+                        <input class="course-checkbox" value="Html" type="checkbox">
+                        <label for="html">Html</label>
+                    </div>
+                    <div>
+                        <input class="course-checkbox" value="Css" type="checkbox">
+                        <label for="css">Css</label>
+                    </div>
+                    <div>
+                        <input class="course-checkbox" value="javascript" type="checkbox">
+                        <label for="javascript">javascript</label>
+                    </div>
+               </div>
+               <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

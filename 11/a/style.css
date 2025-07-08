@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+form{
+    max-width: 300px;
+    margin: 50px auto;
+}
+label{
+    margin-bottom: 5px;
+}
+.box{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 5px 10px;
+}
