@@ -1,0 +1,14 @@
+.tdl{
+    text-align: center;
+}
+.display{
+    display: flex;
+    justify-content: center;
+
+}
+.text_box{
+    margin-right: 10px;
+}
+.summit{
+    margin-left: 10px;
+}

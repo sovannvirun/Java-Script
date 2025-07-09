@@ -1,0 +1,37 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.display{
+    display: flex;
+}
+form{
+    max-width: 300px;
+    margin-left: auto;margin-right: auto;
+}
+.s{
+    display: flex;gap: 30px;
+}
+.display_GC{
+    display: flex; justify-content: space-between;
+}
+.textBox{
+    width: 100%;
+}
+.box_select{
+    padding-left: 20px;padding-right: 20px;
+}
+.browser{
+    color: white;background-color: black;
+    padding-left: 20px;padding-right: 20px;
+    padding-top: 3px;padding-bottom: 3px;
+    border-radius: 5px;margin-top: 5px;
+    margin-bottom: 5px;
+}
+.summit{
+    background-color: aquamarine;border: none;
+    width: 100%;padding-top: 10px;padding-bottom: 10px;
+    border-radius: 5px;
+}
+.address{
+    width: 100%;padding-bottom: 30px;
+}
