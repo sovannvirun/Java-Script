@@ -38,9 +38,8 @@ submitButton.addEventListener('click',(e) =>{
     console.log(getCourse)
     display.innerHTML = `
        <ul>
-             <li>${username.value}</li>
+        <li>${username.value}</li>
         <li>${gender}</li>
-
         <li>${shift}</li>
         <li>${getCourse}</li>
        <ul>

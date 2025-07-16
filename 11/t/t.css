@@ -1,0 +1,31 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.display_S{
+    display: flex;gap: 50px;
+}
+.display_SS{
+    display: flex;
+}
+.display_GC{
+    display: flex;justify-content:space-between;
+}
+.textBox{
+    width: 100%;
+}
+form{
+    max-width: 400px;margin-left: auto;
+    margin-right: auto;
+}
+.browser{
+    background-color: black;color: white;
+    border-radius: 10px;padding: 5px 10px;
+    margin: 4px;
+}
+.textBox1{
+    width: 100%;background-color: aquamarine;
+    border: none;padding: 10px;border-radius: 10px;
+}
+.textBox2{
+    width: 100%;padding: 20px 0;
+}
