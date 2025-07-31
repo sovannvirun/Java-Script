@@ -1,8 +1,8 @@
-const Input_AT=document.getElementById('AUTHOR')
-const Input_TT=document.getElementById('TITLE')
-const Input_NOP=document.getElementById('NOP')
+const Input_AT=document.getElementById("AUTHOR")
+const Input_TT=document.getElementById("TITLE")
+const Input_NOP=document.getElementById("NOP")
 const AddBook=document.querySelector(".AddBook")
-const container=document.getElementById('js_container')
+const container=document.getElementById("js_container")
 let list=[];
 AddBook.addEventListener(("click"),()=>{
     let NewList={
@@ -12,21 +12,22 @@ AddBook.addEventListener(("click"),()=>{
     }
     list.push(NewList)
     saveData();
-    getData();
+    getData()
     display(list)
 })
 function display(data){
     let html=data.map((d,index)=>{
-        return `
+        return`
     <div class="contain_header">
-        <p> ${d.author} </p>
+        <P> ${d.author} </P>
         <p> ${d.title} </p>
         <p> ${d.number_of_page} </p>
-        <button class="Remove" onclick='Remove(${index})'>Remove</button>
+        <button class="Remove" onclick='Remove( ${index} )'>Remove</button>
     </div>
         `
     }).join("")
     container.innerHTML=html
+
 }
 function Remove(index){
     list.splice(index,1)
@@ -40,12 +41,12 @@ function saveData(){
 function getData(){
     const person=localStorage.getItem("library_store");
     if(person){
-        list=JSON.parse(person);
+        list=JSON.parse(person);    
     }
     else{
         list=[];
     }
-        
+    
 }
 getData();
 display(list)

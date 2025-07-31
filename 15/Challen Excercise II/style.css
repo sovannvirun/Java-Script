@@ -1,0 +1,129 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; justify-content: space-between;
+    padding: 10px; position: fixed;top: 0;right: 0;
+    left: 0;background-color: white;
+}
+.container1{
+    display: flex;gap: 20px;
+}
+.logo1{
+    border: 3px solid rgb(180, 193, 204);width: 30px;
+    border-radius: 100%;padding: 3px;
+}
+.container2{
+ display: flex;gap: 20px;
+ align-items: center;
+}
+a{
+    margin-left: 20px;margin-right: 20px;
+}
+.Search{
+    width: 250px;height: 30px;border-radius: 10px;
+    border: 1px solid ;padding-left: 5px;
+}
+.pahero{
+    width: 100%;height: 60vh;
+    background-image: url("https://i.pinimg.com/1200x/1d/53/19/1d53194f968c33bdf82fc972b0730e40.jpg");
+    background-position: center;background-repeat:no-repeat ;
+    background-size: cover;display: flex;align-items: center;
+}
+.ssywnf{
+    margin-top: 40px;margin-bottom: 40px;
+    font-size: 25px;color: rgb(63, 56, 56);
+}
+.WeBack{
+    margin-left: 100px;
+}
+.weBackh1{
+    font-size: 60px;
+}
+.bShopNow{
+    background-color: rgb(94, 94, 247);padding: 15px 30px;border-radius: 10px;
+    color: white;border: none;font-size: 15px;font-weight: bold;
+}
+img{width: 100%;}
+.display1{
+   display: flex;padding: 10px 10px;
+    
+}
+.display2{
+    display: flex;gap: 10px;
+    flex: 1;padding-left: 10px;
+}
+.photo1{
+    flex: flex1;width: 500px;
+    height: 500px;
+}
+.display3{
+    display: flex;justify-content: space-between;
+        
+}
+.vap{
+    font-size: 25px;
+}
+.display4{
+    display: flex;gap: 15px;
+    
+}
+.puma{
+    font-size: 15px;
+}
+.PV{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;font-weight: bold;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    
+}
+.photo{
+    height: 300px;
+}
+.pahero2{
+    background-image: url("https://images.puma.com/image/upload/c_scale,f_auto,q_auto:good,w_1280/cms/images/4d3466783b9e0503bed2f31a4f5782fc1aeb68c6?_a=BAMAK+eA0");
+    width: 100%;height: 60vh;margin-top: 20px;
+    
+}
+.pxs{
+    padding-top: 100px;padding-left: 60px;
+}
+.gap{
+    margin-top: 10px;margin-bottom: 10px;
+    font-size: 20px;
+}
+.display5{
+    display: flex;justify-content: space-between;
+    margin-top: 30px;margin-bottom: 40px;
+    margin-left: 10px;margin-right: 10px;
+}
+.display6{
+    display: flex;gap: 10px;margin-top: 15px;
+}
+.gap1{
+    font-size: 25px;color: blue;
+    font-weight: bold;
+}
+.CopyRight{
+    text-align: center;font-size: 18px;
+    font-weight: bold;margin-top: 30px;margin-bottom: 30px;
+}
+.line1{
+    margin-left: 10px;margin-right: 10px;
+
+}
+.photo2{
+    height: 250px;width: 370px;
+}
+.photo3{
+    height: 300px;width: 100%;
+}
+.photo4{
+    height: 250px;padding-left: 10px;
+}
